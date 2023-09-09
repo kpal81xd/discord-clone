@@ -1,3 +1,5 @@
+# Discord Clone
+
 ## Technologies
 
 - Framework - Next.JS (React)
