@@ -13,3 +13,4 @@
 
 - Do not upload image if server creation cancelled
 - Fixed update server settings when invoking more than once
+- Members do not update immediately have to refresh page first
