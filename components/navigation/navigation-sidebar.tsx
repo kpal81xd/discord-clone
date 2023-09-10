@@ -12,7 +12,6 @@ import { NavigationItem } from "./navigation-item";
 
 export const NavigationSidebar = async () => {
   const profile = await currentProfile();
-
   if (!profile) {
     return redirect("/");
   }
