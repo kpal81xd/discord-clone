@@ -97,8 +97,6 @@ export const ChatItem = ({
         query: socketQuery,
       });
 
-      console.log(url, values);
-
       await axios.patch(url, values);
 
       form.reset();
