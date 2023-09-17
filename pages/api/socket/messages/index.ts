@@ -53,7 +53,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponseS
         serverId: serverId as string,
       },
     });
-    if (!channelId) {
+    if (!channel) {
       return res.status(404).json({ error: "Channel not found" });
     }
 
