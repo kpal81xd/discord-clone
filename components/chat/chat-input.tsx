@@ -3,9 +3,9 @@
 import * as z from "zod";
 import axios from "axios";
 import qs from "query-string";
-import { Plus } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { Plus } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
@@ -17,7 +17,7 @@ interface ChatInputProps {
   apiUrl: string;
   query: Record<string, any>;
   name: string;
-  type: "channel" | "conversation";
+  type: "conversation" | "channel";
 }
 
 const formSchema = z.object({
@@ -44,7 +44,7 @@ export const ChatInput = ({ apiUrl, query, name, type }: ChatInputProps) => {
         query,
       });
 
-      axios.post(url, values);
+      await axios.post(url, values);
 
       form.reset();
       router.refresh();
