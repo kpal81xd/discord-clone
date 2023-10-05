@@ -1,5 +1,7 @@
 # Discord Clone
 
+Live application[https://discord-clone-production-13ff.up.railway.app/]
+
 ## Technologies
 
 - Framework - Next.JS (React)
