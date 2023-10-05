@@ -1,6 +1,6 @@
 # Discord Clone
 
-Live application[https://discord-clone-production-13ff.up.railway.app/]
+https://discord-clone-production-13ff.up.railway.app
 
 ## Technologies
 
